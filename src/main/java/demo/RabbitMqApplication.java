@@ -9,7 +9,12 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+/**
+ * Author: @Avadhut Jagtap
+ * Description: This is a RabbitMQ consumer and producer application using Javalin.
+ * The code implements APIs to send data to a RabbitMQ queue and consume it.
+ * The consumer can be started or stopped via the API endpoints.
+ */
 public class RabbitMqApplication {
     private static final String QUEUE_NAME = "default-queue";
     private static final ConnectionFactory factory = new ConnectionFactory();

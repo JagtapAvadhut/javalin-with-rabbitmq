@@ -9,6 +9,15 @@
   <properties>
     <java.version>17</java.version>
   </properties>
+  <developers>
+    <developer>
+      <name>Avadhut Jagtap</name>
+      <email>avadhut.pvt@gmail.com</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
   <dependencies>
     <dependency>
       <groupId>com.rabbitmq</groupId>
