@@ -1,6 +1,4 @@
-# Use a minimal openjdk image as a base
-FROM openjdk:17-jdk-slim
-
+FROM ubuntu/jre:17_edge
 # Set working directory inside the container
 WORKDIR /app
 
